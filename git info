@@ -1,0 +1,88 @@
+# Configurar el nombre de usuario y email
+git config --global user.name "Victor Manue Matias Raymundo"
+git config --global user.email vitomany@yahoo.es
+
+# INicializar un repositorio que no existe con anterioridad
+git init
+
+# Clonar un repositorio
+git clone urlDelRepositorioPrincipal.git
+
+# Vincula un proyecto local con un proyecto remoto
+git remote add origin rutaAlGit.git
+
+# Enviar cambios locales al remoto
+git push origin RamaLocal
+
+# Bajar los camibos remotos a local
+git fetch origin
+
+# Fusionar la rama remota con la local (tras cambios remotos ya bajados)
+git merge origin/NombreDeLaRama
+
+# Agregar todos los ficheros modificados al commit
+git add -A
+
+# Hace un commit de todos los cambios
+# Debe ejecutarse luego de agregar al menos un archivo
+# al comit
+git commit -m "Mensaje para el commit"
+
+# Muestra el estado de los archivos modificados
+git status
+
+# Crea una rama a partir de la rama actual
+git branch NombreRama
+
+# Moverse a una rama ya existente
+git checkout NombreRama
+
+# Crea una rama y se mueve a ella a partir de la rama actual
+git checkout -b NombreRama
+
+# Elimina una rama
+git branch -d NombreRama
+
+# Elimina una rama y en caso de error fuerza su eliminacion
+git branch -D NombreRama
+
+# Ver todos los cambios hecho a traves de los commits
+git log
+
+######
+# Para que una rama absorva otra rama
+# Primero moverse a la rama que absorvera
+git checkout RamaQueAbsorveraOPrincipal
+
+# Luego abosrver los cambios de la otra rama
+git merge RamaAAbsorver
+
+# Combiar fetch + merge
+git pull
+
+
+GitHub Pixhan
+
+User: "pixhan"
+Pass: "@developersfor.dev.pixi77123"
+
+Correo Electronico
+
+User: "pixhanback@gmail.com"
+Pass: "@refrigerador2021.dev"
+
+Namecheap
+
+Url: "premium41.web-hosting.com:2083"
+User: "pixhoxvi"
+Pass: "9vmhQRGKDq75"
+
+ForoBeta
+
+User: "kernelinlaravel@gmail.com"
+Pass: "C6NPgyhGrrgpxYi"
+
+Gmail
+
+User: "kernelinlaravel"
+Pass: "B6vBYRT9U4nhyAD"
